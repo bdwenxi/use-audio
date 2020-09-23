@@ -1,5 +1,5 @@
 {
-    "name": "use-audio",
+    "name": "@gemini/use-audio",
     "version": "1.0.0",
     "description": "Plays audio and exposes its controls.",
     "main": "lib/index.js",
