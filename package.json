@@ -1,0 +1,39 @@
+{
+    "name": "use-audio",
+    "version": "1.0.0",
+    "description": "Plays audio and exposes its controls.",
+    "main": "lib/index.js",
+    "module": "es/index.js",
+    "types": "es/index.d.ts",
+    "keywords": [
+        "react",
+        "hooks",
+        "audio"
+    ],
+    "homepage": "https://github.com/bdwenxi/use-audio",
+    "repository": "git@github.com:bdwenxi/use-audio.git",
+    "author": "bdwenxi <bdwenxi@gmail.com>",
+    "contributors": [
+        {
+            "name": "bdwenxi",
+            "email": "bdwenxi@gmail.com"
+        }
+    ],
+    "scripts": {
+        "build": "rm -rf es cjs && tsc & tsc --module esnext --outDir ./es",
+        "build:check": "tsc",
+        "test": "skr test --coverage"
+    },
+    "license": "MIT",
+    "peerDependencies": {
+        "react": ">=16.8.6"
+    },
+    "devDependencies": {
+        "@testing-library/react-hooks": "^3.4.1",
+        "@types/react": "^16.9.49",
+        "react": "^16.13.1",
+        "react-test-renderer": "^16.13.1",
+        "reskript": "^0.26.7",
+        "typescript": "^4.0.3"
+    }
+}
