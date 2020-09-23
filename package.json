@@ -25,6 +25,9 @@
         "test": "skr test --coverage"
     },
     "license": "MIT",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
     "peerDependencies": {
         "react": ">=16.8.6"
     },
