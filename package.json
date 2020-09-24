@@ -19,6 +19,11 @@
             "email": "bdwenxi@gmail.com"
         }
     ],
+    "files": [
+        "src",
+        "cjs",
+        "es"
+    ],
     "scripts": {
         "build": "rm -rf es cjs && tsc & tsc --module esnext --outDir ./es",
         "build:check": "tsc",
